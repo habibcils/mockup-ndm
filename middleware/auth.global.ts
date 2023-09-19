@@ -25,7 +25,6 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
 
 // check token
 function isUserExist() {
-    return true
     const tokenInfo = tokenHelper.decodeUserToken()
     if (tokenInfo) {
         const isExpired = tokenHelper.isExpired()

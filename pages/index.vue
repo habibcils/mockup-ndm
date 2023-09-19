@@ -22,9 +22,6 @@
 
 import { useQuasar } from 'quasar';
 
-
-import { computed } from 'vue';
-
 export default {
     setup() {
         const {

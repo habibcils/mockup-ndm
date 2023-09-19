@@ -8,11 +8,6 @@ export default defineNuxtConfig({
 		}
 	},
 	pages: true,
-	css: [
-		// '~/assets/css/tailwind.css',
-		// '~/assets/css/darkmode.css',
-	],
-
 	modules: [
 		'nuxt-quasar-ui',
 		'@nuxtjs/tailwindcss',
